@@ -6,26 +6,27 @@ body {
   padding: 0;
   background-color: #f8f9fa;
 }
+
 header {
   background-color: #ffcc80;
   padding: 20px;
   text-align: center;
 }
+
 header h1 {
   font-family: 'Chewy', cursive;
   margin: 0;
   color: #555;
 }
+
 header ul {
   list-style: none;
   padding: 0;
 }
+
 header ul li {
   display: inline;
   margin-right: 15px;
-}
-header ul li a:hover {
-  color: #f2f2f2;
 }
 
 header ul li a {
@@ -33,60 +34,11 @@ header ul li a {
   color: #333;
   font-weight: bold;
 }
+
+header ul li a:hover {
+  color: #f2f2f2;
+}
+
 header ul li a.active {
   color: #555;
-}
-h2 {
-  font-family: 'Chewy', cursive;
-  color: #555;
-
-  margin: 0;
-  padding: 0;
-}
-.container {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 20px;
-}
-.container h3 {
-  font-family: 'Chewy', cursive;
-  color: #555;
-}
-.container p {
-  margin-bottom: 20px;
-}
-.image {
-  float: right;
-  margin: 0 0 20px 20px;
-  max-width: 25%;
-  height: auto;
-}
-
-
-.image2 {
-  float: left;
-  margin: 0 20px 20px 0;
-  max-width: 25%;
-  height: auto;
-}
-.article {
-float: left;
-width: 70%;
-background-color: #FFF;
-padding: 10px;
-margin: 10px;
-border: 1px solid #CCC;
-}
-.image3 {
-  float: right;
-  clear: both;
-  margin: 0 0 20px 20px;
-  max-width: 25%;
-  height: auto;
-}
-.footer {
-  background-color: #ffcc80;
-  text-align: center;
-  padding: 10px;
-  clear: both;
 }
