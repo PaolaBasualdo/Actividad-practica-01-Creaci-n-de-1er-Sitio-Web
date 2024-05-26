@@ -1,0 +1,64 @@
+/* Barra de navegacion */
+.navbar {
+    background-color: #d2d4d8;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Nunito Sans', sans-serif;
+    position: fixed;
+    z-index: 100;
+    top: 0; 
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #12203E;
+    font-weight: 800;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color:white;
+    color: black;
+} 
+
+
+/* Estilos generales*/
+
+*{ margin: 0;
+   padding: 0;
+  }
+body {
+	background: #E9ECF4;
+	color:#12203E;
+	font-family: 'Nunito Sans', sans-serif;
+}
+main {
+  margin-top: 50px; 
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Nunito Sans', sans-serif;
+}
+h2 {
+  font-size: 2rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+}
+h3 {
+  font-size: 1rem;
+  font-family: 'Nunito Sans', sans-serif;
+}
+h4 {
+  font-size: 0.75rem;
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: italic;
+} 
+h5{
+  font-size: 0.5rem;
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: italic;
+}
+
+
