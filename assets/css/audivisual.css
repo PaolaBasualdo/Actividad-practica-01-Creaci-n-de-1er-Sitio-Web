@@ -7,42 +7,6 @@ body {
     background-color: #f8f9fa;
 }
 
-header {
-    background-color: #ffcc80;
-    padding: 20px;
-    text-align: center;
-}
-
-header h1 {
-    font-family: 'Chewy', cursive;
-    margin: 0;
-    color: #555;
-}
-
-header ul {
-    list-style: none;
-    padding: 0;
-}
-
-header ul li {
-    display: inline;
-    margin-right: 15px;
-}
-
-header ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-header ul li a:hover {
-    color: #f2f2f2;
-}
-
-header ul li a.active {
-    color: #555;
-}
-
 .centrado {
     text-align: center;
     padding: 20px;
@@ -54,7 +18,12 @@ header ul li a.active {
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
-    width: 300px; /* Puedes ajustar este valor según necesites */
+    width: 300px; 
+}
+
+
+.gallery:hover {
+    transform: scale(1.05); /* Agranda la imagen al pasar el cursor */
 }
 
 .gallery img {
@@ -83,17 +52,7 @@ header ul li a.active {
 }
 
 
-footer {
-    background-color: #ffcc80;
-    text-align: center;
-    padding: 10px;
-    clear: both;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-h2, h3 {
+h2 {
     font-family: 'Chewy', cursive;
     color: #555;
     text-align: center;
@@ -101,9 +60,3 @@ h2, h3 {
     text-decoration: none;
 }
 
-h3 {
-    text-decoration: none !important; /* Añadida una regla más específica para h3 */
-}
-.centro {
-    text-align: center;
-}
