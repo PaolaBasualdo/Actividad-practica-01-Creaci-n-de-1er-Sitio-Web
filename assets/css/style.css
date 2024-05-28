@@ -68,6 +68,7 @@ h2 {
   color: #555; /* Color del texto */
   margin: 0; /* Eliminar margen */
   padding: 0; /* Eliminar relleno */
+  text-align: center; /* Centrar texto */
 }
 
 /* Contenedor principal */
